@@ -1,0 +1,1 @@
+This is a unix CLI emulator that handles multiple pipes. Each piped segment is spun off as a separate POSIX child thread and piped to the next segment.
