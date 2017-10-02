@@ -4,7 +4,7 @@ Each pipe character requires a space before and afterwards. Input and output red
 
 > cat <input.txt | tr a A | tr b B >output.txt
 
-should be fine. However,
+However,
 
 > cat < input.txt|tr a A|tr b B > output.txt
 
